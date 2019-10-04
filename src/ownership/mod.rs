@@ -60,3 +60,6 @@ pub fn run(){
 
 }
 //fav_car is no longer in scope
+
+
+//Order: ex_1, ex_2, references

@@ -1,13 +1,13 @@
-// mod variables;
+mod variables;
 // mod data_types;
 // mod functions;
-mod ownership;
+// mod ownership;
 
 fn main() {
-    // variables::run();
+    variables::run();
     // data_types::run();
     // functions::run();
-    ownership::run();
+    // ownership::run();
 
     
 }

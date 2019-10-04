@@ -40,7 +40,26 @@ let v = vec![10, 20, 30, 40]; //uses the vec macro for easier writing
 let v = Vec<i32> = Vec::new(); // creates a new empty vec
 
 
+Structs
+custom data types that let you put related values together into a group
+these are the building blocks for creating new types and using Rust's
+compile time type checking
 */
+
+struct User {
+    username: String,
+    email: String,
+    sign_in_count: u64,
+    active: bool
+}
+
+//Using a struct
+let user1 = User {
+    email: String::from("zcericola@veryableops.com"),
+    username: String::from("zcericola"),
+    active: true,
+    sign_in_count: 1
+}
 
 fn array_ex(){
     let my_nums = [3, 4, 5, 6, 7];
@@ -62,3 +81,4 @@ pub fn run(){
 
     array_ex();
 }
+

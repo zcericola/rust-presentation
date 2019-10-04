@@ -12,22 +12,24 @@ fn add(x: i32, y: i32) -> i32 {x + y}
 
 
 //Here's an example of simple control flow, works pretty much as you would expect in other languages.
-fn is_old_enough(age: u8) -> bool {
-    const DRIVING_AGE: u8 = 16;
-    if age >= DRIVING_AGE {
-        return true;
-    } else {
-        return false;
-    }
+// fn is_old_enough(age: u8) -> bool {
+//     const DRIVING_AGE: u8 = 16;
+//     if age >= DRIVING_AGE {
+//         return true;
+//     } else {
+//         return false;
+//     }
 
-}
+// }
 
 pub fn run(){
     let result: i32 = add(5, 5);
     println!("The result is: {}", result);
-    if is_old_enough(12) {
-        println!("The person is old enough to drive.");
-    } else {
-        println!("Uh oh, watch out!");
-    } 
+    // if is_old_enough(12) {
+    //     println!("The person is old enough to drive.");
+    // } else {
+    //     println!("Uh oh, watch out!");
+    // } 
 }
+
+//Order: add, is_old_enough
