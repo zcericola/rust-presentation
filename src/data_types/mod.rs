@@ -35,6 +35,10 @@ let fruit = ['banana', 'apple'];
 -arrays are allocated on the stack instead of the heap
 -Most of the time if you need an array as you're used to in another language, you probably should use a vector which behaves more like you would assume.
 
+Vectors
+let v = vec![10, 20, 30, 40]; //uses the vec macro for easier writing
+let v = Vec<i32> = Vec::new(); // creates a new empty vec
+
 
 */
 

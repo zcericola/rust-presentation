@@ -36,6 +36,18 @@ Basic Ownership Rules
 //     println!("The values of str1 and str2 are: {:?} and {:?}", str1, str2);
 // }
 
+// fn references() -> Vec<i32> {
+//     //remember, must use the mut keyword here since we are changing the values in the array
+//     let mut nums = vec![10, 20, 30, 40];
+//     //& operator is how you indicate you need a reference
+//     for i in &mut nums {
+//         // * is the dereference operator, does the opposite of &.
+//         *i *= 2;
+
+//     }
+//     return nums;
+// }
+
 
 pub fn run(){
    
@@ -43,6 +55,8 @@ pub fn run(){
     println!("My favorite car is a {:?}", fav_car);
     ex_one(); //behaves as you would expect
     // ex_two();
+    // let result_arr: Vec<i32> = references();
+    // println!("The return value of references: {:?}",  result_arr);
 
 }
 //fav_car is no longer in scope
